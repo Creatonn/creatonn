@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { css } from "@emotion/css";
-import { publicPath } from "../modules/utils";
 import { SocialButton } from "./SocialButton";
 import { TCanvas } from "./three/TCanvas";
 import { NavBar } from "./NavBar";
@@ -13,7 +12,7 @@ export const App: FC = () => {
       <InfoStrap />
       <TCanvas />
       <NavBar />
-	  <Phone />
+      <Phone />
       <SocialButton />
     </div>
   );

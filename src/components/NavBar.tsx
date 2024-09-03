@@ -12,9 +12,11 @@ export const NavBar: FC = () => {
       </div>
       <div style={styles.topRight}>
         <div className="wrapper">
-          <button className="btn">
-            <span className="text">Open App</span>
-          </button>
+          <a href="https://t.me/Creatonn_bot" target="_blank" style={{textDecoration: "none"}}>
+            <button className="btn">
+              <span className="text">Open App</span>
+            </button>
+          </a>
         </div>
       </div>
     </>

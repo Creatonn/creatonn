@@ -1,6 +1,7 @@
 import React, { FC, ReactHTML, useState } from "react";
 import Close from "../../public/assets/icons/close.jpg";
 import "../css/phone.css";
+import Intro from "../../public/assets/images/intro.gif";
 
 export const Phone: FC = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -26,7 +27,7 @@ export const Phone: FC = () => {
               <div className="card-int">
                 <img
                   className="demo"
-                  src="https://e1.pxfuel.com/desktop-wallpaper/179/634/desktop-wallpaper-mobile-phone-screen-saver-iphone-7-mobile-screen.jpg"
+                  src={Intro}
                 />
               </div>
               <div className="top">
